@@ -57,7 +57,8 @@
     align-items: center;
 }
 
-.header__btn {
+.header__btn,
+.header__btn--mod {
     padding: 12px 27px;
     border-radius: 40px;
     border: 2px solid #F13C6E;
@@ -67,4 +68,24 @@
 .header__sectiom {
     background: url(../img/banner.svg) 50% / cover no-repeat;
     padding: 192px 0 192px 21%;
+}
+
+.header__heading {
+    color: #fff;
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+
+.header__text {
+    color: #fff;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+}
+
+.header__btn--mod {
+    margin-top: 30px;
+    color: #fff;
+    border-color: #fff;
+    background-color: #F13C6E;
 }
