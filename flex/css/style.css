@@ -105,6 +105,20 @@ body {
   background-color: #F13C6E;
 }
 
+.main {
+  margin: 80px 21% 106px;
+}
+
+.main__heading {
+  font-weight: 700;
+  font-size: 1.5rem;
+  margin-bottom: 38px;
+}
+
+.main__section {
+  display: flex;
+}
+
 body {
   font-family: roboto;
 }/*# sourceMappingURL=style.css.map */
