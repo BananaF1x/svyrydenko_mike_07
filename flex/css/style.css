@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-decoration: none;
+  font-weight: normal;
+  box-sizing: border-box;
+  outline: none;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  font-size: 1rem;
+  background-color: #EFEFEF;
+}
+
+.header__section__nav {
+  background-color: #EFEFEF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header__nav,
+.header__subnav {
+  display: flex;
+}
+
+.nav__list {
+  padding: 17px 1%;
+}
+
+.nav__link,
+.subnav__link,
+.header__link {
+  font-size: 0.875rem;
+  color: #333;
+}
+
+.nav__link:hover,
+.subnav__link:hover,
+.header__link:hover,
+.header__btn:hover {
+  font-size: 0.875rem;
+  color: #F13C6E;
+}
+
+.header__link__name {
+  color: #F13C6E;
+  font-size: 2.25rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.header__sectiom__logo {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #fff;
+  padding: 20px 0;
+}
+
+.header__link--mod {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header__btn {
+  padding: 12px 27px;
+  border-radius: 40px;
+  border: 2px solid #F13C6E;
+  font-size: 0.875rem;
+}
+
+.header__sectiom {
+  background: url(../img/banner.svg) 50%/cover no-repeat;
+  padding: 192px 0 192px 21%;
+}
+
+body {
+  font-family: roboto;
+}/*# sourceMappingURL=style.css.map */
