@@ -43,10 +43,10 @@ body {
 .header .header__sectiom__logo {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   border: 1px solid #efefef;
-  padding: 20px 0;
+  padding: 20px 21%;
 }
 .header .header__sectiom__logo .section__container .header__link--mod {
   display: flex;
@@ -100,8 +100,7 @@ body {
 
 .main__logo {
   background: url(../img/banner.svg) lightgray 50%/cover no-repeat;
-  padding: 192px 0;
-  padding-left: 21%;
+  padding: 192px 21%;
 }
 .main__logo .main__logo__heading {
   color: #fff;
@@ -112,7 +111,6 @@ body {
   color: #fff;
   font-weight: 400;
   font-size: 0.875rem;
-  line-height: 20px;
   padding: 50px 0 30px;
 }
 .main__logo .main__logo__btn {
@@ -138,8 +136,7 @@ body {
   color: #000;
   font-weight: 700;
   font-size: 1.5rem;
-  padding: 80px 0 38px;
-  margin-left: 21%;
+  padding: 80px 21% 38px;
 }
 
 .main__section {
@@ -148,8 +145,10 @@ body {
   justify-content: center;
   align-items: center;
   gap: 0 30px;
+  padding: 0 21%;
 }
 .main__section .main__section--item {
+  width: 25%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -179,4 +178,59 @@ body {
 .main__section .main__section--item .main__section__btn:hover {
   background-color: #efefef;
   color: #000;
+  transition: all 1s;
+}
+
+.main__section--spec {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 21%;
+  gap: 0 30px;
+}
+.main__section--spec .section__container--additional {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #F13C6E;
+  padding: 35px 45px 35px 40px;
+  width: 50%;
+}
+.main__section--spec .section__container--additional .section__container--mod .section__container__heading {
+  color: #fff;
+  font-weight: 700;
+  font-size: 1.125rem;
+}
+.main__section--spec .section__container--additional .section__container--mod .section__container__text {
+  color: #fff;
+  font-weight: 400;
+  font-size: 0.875rem;
+  padding: 25px 0;
+}
+.main__section--spec .section__container--additional .section__container--mod .section__container__btn {
+  width: 170px;
+  border-radius: 40px;
+  border: 2px solid #fff;
+  background-color: #F13C6E;
+  color: #fff;
+  font-size: 0.875rem;
+  padding: 9px 0;
+}
+.main__section--spec .section__container--additional .section__container--mod input {
+  display: block;
+  border-radius: 30px;
+  padding: 9px 0 9px 11%;
+}
+
+.main__section--mod {
+  margin: 0 auto;
+  width: 1110px;
+  background-color: #fff;
+}
+.main__section--mod .main__img {
+  padding: 35px 69px 60px;
+  border: 1px solid #efefef;
+  border-collapse: collapse;
 }/*# sourceMappingURL=style.css.map */

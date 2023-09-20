@@ -20,9 +20,9 @@
     }
 
     .header__sectiom__logo {
-        @include flex (row, space-around, center);
+        @include flex (row, space-between, center);
         border: 1px solid $main_color;
-        padding: 20px 0;
+        padding: 20px 21%;
 
         .section__container {
             .header__link--mod {

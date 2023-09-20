@@ -1,13 +1,12 @@
 .main__logo {
     background: url(../img/banner.svg) lightgray 50% / cover no-repeat;
-    padding: 192px 0;
-    padding-left: 21%;
+    padding: 192px 21%;
+    
     .main__logo__heading {
         @include font_style ($add_main-color, 700, 3rem);
     }
     .main__logo__text {
         @include font_style ($add_main-color, 400, 0.875rem);
-        line-height: 20px;
         padding: 50px 0 30px;
     }
     .main__logo__btn {
