@@ -1,10 +1,12 @@
 .main__section--mod {
-    margin: 0 auto;
-    width: 1110px;
+    display: flex;
     background-color: $add_main-color;
+    margin: 0 21%;
+    flex-wrap: wrap;
+    
     .main__img {
-        padding: 35px 69px 60px;
+        width: 25%;
+        padding: 35px 69px 35px 60px;
         border: 1px solid $main_color;
-        border-collapse: collapse;
     }    
 }

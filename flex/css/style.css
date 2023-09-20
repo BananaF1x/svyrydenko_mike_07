@@ -225,12 +225,13 @@ body {
 }
 
 .main__section--mod {
-  margin: 0 auto;
-  width: 1110px;
+  display: flex;
   background-color: #fff;
+  margin: 0 21%;
+  flex-wrap: wrap;
 }
 .main__section--mod .main__img {
-  padding: 35px 69px 60px;
+  width: 25%;
+  padding: 35px 69px 35px 60px;
   border: 1px solid #efefef;
-  border-collapse: collapse;
 }/*# sourceMappingURL=style.css.map */
