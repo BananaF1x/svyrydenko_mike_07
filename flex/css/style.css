@@ -76,9 +76,15 @@ body {
   width: 170px;
   border-radius: 40px;
   border: 2px solid #F13C6E;
-  padding: 12px 0;
   background-color: #fff;
+  color: #000;
   font-size: 0.875rem;
+  padding: 12px 0;
+}
+.header .header__sectiom__logo .section__container .section__subcontainer .header__btn:hover {
+  background-color: #F13C6E;
+  color: #fff;
+  transition: all 1s;
 }
 .header .header__section__subnav {
   display: flex;
@@ -234,4 +240,79 @@ body {
   width: 25%;
   padding: 35px 69px 35px 60px;
   border: 1px solid #efefef;
+}
+
+.footer {
+  background-color: #fff;
+  margin-top: 80px;
+}
+.footer .footer__section {
+  display: flex;
+  padding: 60px 21%;
+  gap: 0 30px;
+}
+.footer .footer__section .footer__container {
+  width: 25%;
+}
+.footer .footer__section .footer__container .footer__container__heading {
+  color: #000;
+  font-weight: 500;
+  font-size: 1rem;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #efefef;
+}
+.footer .footer__section .footer__container .footer__container__text {
+  color: #828282;
+  font-weight: 400;
+  font-size: 0.75rem;
+  padding: 25px 0 60px;
+  line-height: 28px;
+}
+.footer .footer__section--spec {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 38px 21%;
+  gap: 30px;
+  border-top: 1px solid #efefef;
+}
+.footer .footer__section--spec .footer__container--mod {
+  display: flex;
+  gap: 0 20px;
+}
+.footer .footer__section--spec .footer__container--spec {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.footer .footer__section--spec .footer__container--spec .foter__container__link--mod {
+  color: #000;
+}
+.footer .footer__section--spec .footer__container--spec .footer__btn {
+  width: 170px;
+  border-radius: 40px;
+  border: 2px solid #F13C6E;
+  background-color: #fff;
+  color: #000;
+  font-size: 0.875rem;
+  padding: 12px 0;
+}
+.footer .footer__section--spec .footer__container--spec .footer__btn:hover {
+  background-color: #F13C6E;
+  color: #fff;
+  transition: all 1s;
+}
+.footer .footer__section--mod {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #efefef;
+  padding: 25px 21%;
+}
+.footer .footer__section--mod .foter__section__text {
+  color: #828282;
+  font-weight: 400;
+  font-size: 0.75rem;
 }/*# sourceMappingURL=style.css.map */

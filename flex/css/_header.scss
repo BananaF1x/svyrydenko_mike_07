@@ -45,12 +45,13 @@
                     color: $additional_color;
                 }
                 .header__btn {
-                    width: 170px;
-                    border-radius: 40px;
-                    border: 2px solid $primary_color;
+                    @include btn ($primary_color, $add_main-color, $additional_color);
                     padding: 12px 0;
-                    background-color: $add_main-color;
-                    font-size: 0.875rem;
+                }
+                .header__btn:hover {
+                    background-color: $primary_color;
+                    color: $add_main-color;
+                    transition: all 1s;
                 }
             }
         }
