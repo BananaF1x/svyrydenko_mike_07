@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-decoration: none;
+  font-weight: normal;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  font-size: 1rem;
+  background-color: #EFEFEF;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+
+.header {
+  background-color: #fff;
+}
+.header .header__section__nav {
+  background-color: #efefef;
+}
+.header .header__section__nav .header__nav {
+  margin-left: 40%;
+  padding: 17px 0;
+}
+.header .header__section__nav .header__nav .nav__list {
+  float: left;
+  padding: 0 1%;
+}
+.header .header__section__nav .header__nav .nav__list .nav__link {
+  color: #333;
+  font-size: 0.875rem;
+}
+.header .header__section__nav .header__nav::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.header .header__section__subnav {
+  background-color: #efefef;
+}
+.header .header__section__subnav .header__subnav {
+  margin-left: 36%;
+  padding: 17px 0;
+}
+.header .header__section__subnav .header__subnav .nav__list {
+  float: left;
+  padding: 0 1%;
+}
+.header .header__section__subnav .header__subnav .nav__list .subnav__link {
+  color: #333;
+  font-size: 0.875rem;
+}
+.header .header__section__subnav .header__subnav::after {
+  content: "";
+  display: table;
+  clear: both;
+}/*# sourceMappingURL=style.css.map */

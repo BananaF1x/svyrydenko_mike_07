@@ -1,0 +1,47 @@
+.header {
+    background-color: $add_main-color;
+
+    .header__section__nav {
+        background-color: $main_color;
+
+        .header__nav {
+            margin-left: 40%;
+            padding: 17px 0;
+
+            .nav__list {
+                float: left;
+                padding: 0 1%;
+                
+                .nav__link {
+                    color: $secondary_color;
+                    font-size: 0.875rem;
+                }
+            }
+        }
+        .header__nav::after {
+            @include clear_fix;
+        }
+    }
+    
+    .header__section__subnav {
+        background-color: $main_color;
+
+        .header__subnav {
+            margin-left: 36%;
+            padding: 17px 0;
+
+            .nav__list {
+                float: left;
+                padding: 0 1%;
+
+                .subnav__link {
+                    color: $secondary_color;
+                    font-size: 0.875rem;
+                }
+            }
+        }
+        .header__subnav::after {
+            @include clear_fix;
+        }
+    }
+}

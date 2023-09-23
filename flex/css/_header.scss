@@ -1,5 +1,5 @@
 .header {
-    background-color: #fff;
+    background-color: $add_main-color;
 
     .header__section__nav {
         @include flex (row, center, center);
