@@ -14,10 +14,14 @@
                 padding-bottom: 30px;
                 border-bottom: 1px solid $main_color;
             }
-            .footer__container__text {
-                @include font_style (#828282, 400, 0.75rem);
-                padding: 25px 0 60px;
-                line-height: 28px;
+            .foter__nav {
+                padding-top: 25px;
+                .footer__list {
+                    .footer__list {
+                        @include font_style (#828282, 400, 0.75rem);
+                        line-height: 28px;
+                    }
+                }
             }
         }    
     }

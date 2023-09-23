@@ -21,6 +21,11 @@
                 @include btn ($add_main-color, $primary_color, $add_main-color);
                 padding: 9px 0;
             }
+            .section__container__btn:hover {
+                @include btn ($add_main-color, $add_main-color, $additional_color);
+                padding: 9px 0;
+                transition: all 1s;
+            }
         }
         .section__container--mod input {
             display: block;
