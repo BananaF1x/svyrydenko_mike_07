@@ -1,47 +1,98 @@
 .header {
-    background-color: $add_main-color;
+	background-color: $add_main-color;
 
-    .header__section__nav {
-        background-color: $main_color;
+	.header__section__nav {
+		background-color: $main_color;
+		padding: 17px 0;
 
-        .header__nav {
-            margin-left: 40%;
-            padding: 17px 0;
+		.header__nav {
+			margin: 0 auto;
+			width: fit-content;
+			.nav__list {
+				float: left;
+				margin-right: 30px;
+				.nav__link {
+					color: $secondary_color;
+					font-size: 0.875rem;
+				}
+				&:nth-last-child(1) {
+					margin-right: 0;
+				}
+			}
+			&::after {
+				@include clear_fix;
+			}
+		}
+	}
+	//logo
+	.header__sectiom__logo {
+		border-bottom: 1px solid $main_color;
+		padding: 20px 21%;
 
-            .nav__list {
-                float: left;
-                padding: 0 1%;
-                
-                .nav__link {
-                    color: $secondary_color;
-                    font-size: 0.875rem;
-                }
-            }
-        }
-        .header__nav::after {
-            @include clear_fix;
-        }
-    }
-    
-    .header__section__subnav {
-        background-color: $main_color;
+		.section__container {
+			.header__link--mod {
+				display: block;
+				
+				.header__link__name {
+					color: $primary_color;
+					font-weight: 700;
+					font-size: 2.25rem;
+					letter-spacing: 0.225rem;
+					text-transform: uppercase;
+					line-height: 80px;
+				}
+				.header__link__logo {
+					float: left;
+					margin-right: 20px;
+				}
+			}
+			.section__subcontainer {
+				.header__link {
+					color: $additional_color;
+				}
+				.header__btn {
+					@include btn($primary_color, $add_main-color, $additional_color);
+					padding: 12px 0;
+					margin-left: 40px
+				}
+				.header__btn:hover {
+					background-color: $primary_color;
+					color: $add_main-color;
+					transition: all 1s;
+				}
+			}
+			&:nth-child(1) {
+				float: left;
+			}
+			&:nth-child(2) {
+				float: right;
+				line-height: 80px;
+			}
+		}
+		&::after {
+			@include clear_fix;
+		}
+	}
 
-        .header__subnav {
-            margin-left: 36%;
-            padding: 17px 0;
+	.header__section__subnav {
+		.header__subnav {
+			width: fit-content;
+			padding: 30px 0;
+			margin: 0 auto;
 
-            .nav__list {
-                float: left;
-                padding: 0 1%;
-
-                .subnav__link {
-                    color: $secondary_color;
-                    font-size: 0.875rem;
-                }
-            }
-        }
-        .header__subnav::after {
-            @include clear_fix;
-        }
-    }
+			.nav__list {
+				float: left;
+				margin-right: 40px;
+				.subnav__link {
+					color: $additional_color;
+				}
+				&:nth-last-child(1) {
+					margin-right: 0;
+				}
+			}
+			&::after {
+				@include clear_fix;
+			}
+		}
+	}
 }

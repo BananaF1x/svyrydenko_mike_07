@@ -1,0 +1,55 @@
+.main__section--spec {
+    padding: 100px 0;
+    width: fit-content;
+    margin: 0 auto;
+    
+    .section__container--additional {
+        background-color: $primary_color;
+        padding: 35px 45px 35px 40px;
+        width: 540px;
+        float: left;
+        position: relative;
+        
+        .section__container--mod {
+            float: left;
+            .section__container__heading {
+                @include font_style ($add_main-color, 700, 1.125rem);
+            }
+            .section__container__text {
+                @include font_style ($add_main-color, 400, 0.875rem);
+                padding: 25px 0;
+            }
+            .section__container__btn {
+                @include btn ($add_main-color, $primary_color, $add_main-color);
+                padding: 9px 0;
+            }
+            .section__container__btn:hover {
+                @include btn ($add_main-color, $add_main-color, $additional_color);
+                padding: 9px 0;
+                transition: all 1s;
+            }
+        }
+        &:nth-last-child(1) {
+            margin-left: 30px;
+        }
+        &::after {
+            @include clear_fix;
+        }
+        .section__container--mod input {
+            border-radius: 30px;
+            padding: 9px 0 9px 11%;
+        }
+        .section__container__img {
+            position: absolute;
+            right: 45px;
+        }
+        .section__container__img--mod {
+            position: absolute;
+            top: 56px;
+            right: 45px;
+        }
+    }
+    &::after {
+        @include clear_fix;
+    }
+}
