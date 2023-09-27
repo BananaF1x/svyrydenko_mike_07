@@ -164,16 +164,15 @@ body {
 }
 
 .main__section {
-  width: -moz-fit-content;
-  width: fit-content;
+  width: 58%;
   margin: 0 auto;
 }
 .main__section .main__section--item {
-  width: 255px;
+  width: 23.5%;
   background-color: #fff;
   padding: 25px 30px;
   float: left;
-  margin-right: 30px;
+  margin-right: 2%;
   text-align: center;
 }
 .main__section .main__section--item .main__section__text {
@@ -205,7 +204,7 @@ body {
   transition: all 1s;
 }
 .main__section .main__section--item:nth-last-child(1) {
-  margin-right: 0;
+  margin: 0;
 }
 .main__section::after {
   content: "";
@@ -215,14 +214,13 @@ body {
 
 .main__section--spec {
   padding: 100px 0;
-  width: -moz-fit-content;
-  width: fit-content;
+  width: 58%;
   margin: 0 auto;
 }
 .main__section--spec .section__container--additional {
   background-color: #F13C6E;
   padding: 35px 45px 35px 40px;
-  width: 540px;
+  width: 49%;
   float: left;
   position: relative;
 }
@@ -260,7 +258,7 @@ body {
   transition: all 1s;
 }
 .main__section--spec .section__container--additional:nth-last-child(1) {
-  margin-left: 30px;
+  margin-left: 2%;
 }
 .main__section--spec .section__container--additional::after {
   content: "";
@@ -281,6 +279,126 @@ body {
   right: 45px;
 }
 .main__section--spec::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.main__section--mod {
+  background-color: #fff;
+  width: 58%;
+  margin: 0 auto;
+}
+.main__section--mod .main__section__link {
+  display: block;
+  width: 25%;
+  padding: 35px 69px 35px 60px;
+  border: 1px solid #efefef;
+  float: left;
+}
+.main__section--mod::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.footer {
+  background-color: #fff;
+  margin-top: 80px;
+}
+.footer .footer__section {
+  width: 58%;
+  padding: 60px 0;
+  margin: 0 auto;
+}
+.footer .footer__section .footer__container {
+  float: left;
+  width: 23.5%;
+  margin-right: 2%;
+}
+.footer .footer__section .footer__container .footer__container__heading {
+  color: #000;
+  font-weight: 500;
+  font-size: 1rem;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #efefef;
+}
+.footer .footer__section .footer__container .foter__nav {
+  padding-top: 25px;
+}
+.footer .footer__section .footer__container .foter__nav .footer__list .footer__list {
+  color: #828282;
+  font-weight: 400;
+  font-size: 0.75rem;
+  line-height: 28px;
+}
+.footer .footer__section .footer__container:nth-last-child(1) {
+  margin-right: 0;
+}
+.footer .footer__section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.footer .footer__section--spec {
+  width: 58%;
+  padding: 38px 0;
+  margin: 0 auto;
+  border-top: 1px solid #efefef;
+}
+.footer .footer__section--spec .footer__container--mod {
+  float: left;
+}
+.footer .footer__section--spec .footer__container--mod .footer__container__link {
+  margin-right: 20px;
+}
+.footer .footer__section--spec .footer__container--mod .footer__container__link:nth-last-child(1) {
+  margin-right: 0;
+}
+.footer .footer__section--spec .footer__container--spec {
+  float: right;
+  align-items: center;
+}
+.footer .footer__section--spec .footer__container--spec .foter__container__link--mod {
+  color: #000;
+}
+.footer .footer__section--spec .footer__container--spec .footer__btn {
+  margin-left: 40px;
+  width: 170px;
+  border-radius: 40px;
+  border: 2px solid #F13C6E;
+  background-color: #fff;
+  color: #000;
+  font-size: 0.875rem;
+  padding: 12px 0;
+}
+.footer .footer__section--spec .footer__container--spec .footer__btn:hover {
+  background-color: #F13C6E;
+  color: #fff;
+  transition: all 1s;
+}
+.footer .footer__section--spec::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.footer .footer__section--mod {
+  background-color: #efefef;
+  padding: 25px 21%;
+}
+.footer .footer__section--mod .foter__section__text {
+  float: right;
+  color: #828282;
+  font-weight: 400;
+  font-size: 0.75rem;
+}
+.footer .footer__section--mod .foter__section__text--mod {
+  float: left;
+  color: #828282;
+  font-weight: 400;
+  font-size: 0.75rem;
+}
+.footer .footer__section--mod::after {
   content: "";
   display: table;
   clear: both;

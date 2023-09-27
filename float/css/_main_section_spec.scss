@@ -1,12 +1,12 @@
 .main__section--spec {
     padding: 100px 0;
-    width: fit-content;
+    width: 58%;
     margin: 0 auto;
     
     .section__container--additional {
         background-color: $primary_color;
         padding: 35px 45px 35px 40px;
-        width: 540px;
+        width: 49%;
         float: left;
         position: relative;
         
@@ -30,7 +30,7 @@
             }
         }
         &:nth-last-child(1) {
-            margin-left: 30px;
+            margin-left: 2%;
         }
         &::after {
             @include clear_fix;

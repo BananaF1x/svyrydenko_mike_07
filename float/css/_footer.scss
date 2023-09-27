@@ -1,0 +1,88 @@
+.footer {
+    background-color: $add_main-color;
+    margin-top: 80px;
+
+    .footer__section {
+        width: 58%;
+        padding: 60px 0;
+        margin: 0 auto;
+
+        .footer__container {
+            float: left;
+            width: 23.5%;
+            margin-right: 2%;
+            .footer__container__heading {
+                @include font_style ($additional_color, 500, 1rem);
+                padding-bottom: 30px;
+                border-bottom: 1px solid $main_color;
+            }
+            .foter__nav {
+                padding-top: 25px;
+                .footer__list {
+                    .footer__list {
+                        @include font_style (#828282, 400, 0.75rem);
+                        line-height: 28px;
+                    }
+                }
+            }
+            &:nth-last-child(1) {
+                margin-right: 0;
+            }
+        }
+        &::after {
+            @include clear_fix;
+        }    
+    }
+    .footer__section--spec {
+        width: 58%;
+        padding: 38px 0;
+        margin: 0 auto;
+        border-top: 1px solid $main_color;
+        
+        .footer__container--mod {
+            float: left;
+            .footer__container__link {
+                margin-right: 20px;
+
+                &:nth-last-child(1) {
+                    margin-right: 0;
+                }
+            }
+        }
+        .footer__container--spec {
+            float: right;
+            align-items: center;
+            .foter__container__link--mod {
+                color: $additional_color;
+            }
+            .footer__btn {
+                margin-left: 40px;
+                @include btn ($primary_color, $add_main-color, $additional_color);
+                padding: 12px 0;
+            }
+            .footer__btn:hover {
+                background-color: $primary_color;
+                color: $add_main-color;
+                transition: all 1s;
+            }
+        }
+        &::after {
+            @include clear_fix;
+        } 
+    }
+    .footer__section--mod {
+        background-color: $main_color;
+        padding: 25px 21%;
+        .foter__section__text {
+            float: right;
+            @include font_style (#828282, 400, 0.75rem)
+        }
+        .foter__section__text--mod {
+            float: left;
+            @include font_style (#828282, 400, 0.75rem)
+        }
+        &::after {
+            @include clear_fix;
+        }
+    }
+}
