@@ -204,7 +204,7 @@ body {
   transition: all 1s;
 }
 .main__section .main__section--item:nth-last-child(1) {
-  margin: 0;
+  margin-right: 0;
 }
 .main__section::after {
   content: "";
@@ -290,7 +290,6 @@ body {
   margin: 0 auto;
 }
 .main__section--mod .main__section__link {
-  display: block;
   width: 25%;
   padding: 35px 69px 35px 60px;
   border: 1px solid #efefef;

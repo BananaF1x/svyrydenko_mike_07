@@ -13,7 +13,7 @@
     font-size: 0.875rem;
 }
 
-@mixin clear_fix {
+@mixin clear_fix { 
     content: "";
     display: table;
     clear: both;
