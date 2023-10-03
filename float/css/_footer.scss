@@ -68,6 +68,7 @@
                 background-color: $primary_color; // фон
                 color: $add_main-color; // колір для тексту
                 transition: all 1s; // для плавної зміни всіх елементів
+                cursor: pointer;
             }
         }
         &::after {

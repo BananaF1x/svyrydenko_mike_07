@@ -85,6 +85,7 @@ body {
   background-color: #F13C6E;
   color: #fff;
   transition: all 1s;
+  cursor: pointer;
 }
 .header .header__sectiom__logo .section__container:nth-child(1) {
   float: left;
@@ -154,6 +155,7 @@ body {
   color: #000;
   font-size: 0.875rem;
   transition: all 1s;
+  cursor: pointer;
 }
 
 .main__heading {
@@ -202,6 +204,7 @@ body {
   background-color: #efefef;
   color: #000;
   transition: all 1s;
+  cursor: pointer;
 }
 .main__section .main__section--item:nth-last-child(1) {
   margin-right: 0;
@@ -256,6 +259,7 @@ body {
   font-size: 0.875rem;
   padding: 9px 0;
   transition: all 1s;
+  cursor: pointer;
 }
 .main__section--spec .section__container--additional:nth-last-child(1) {
   margin-left: 2%;
@@ -291,7 +295,8 @@ body {
 }
 .main__section--mod .main__section__link {
   width: 25%;
-  padding: 35px 69px 35px 60px;
+  text-align: center;
+  padding: 35px 0;
   border: 1px solid #efefef;
   float: left;
 }
@@ -375,6 +380,7 @@ body {
   background-color: #F13C6E;
   color: #fff;
   transition: all 1s;
+  cursor: pointer;
 }
 .footer .footer__section--spec::after {
   content: "";

@@ -18,5 +18,6 @@
     .main__logo__btn:hover {
         @include btn ($add_main-color, $add_main-color, $additional_color); // mixin з параметрами для кнопки
         transition: all 1s; // для плавної зміни всіх елементів
+        cursor: pointer;
     }
 }

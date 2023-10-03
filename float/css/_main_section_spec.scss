@@ -27,6 +27,7 @@
                 @include btn ($add_main-color, $add_main-color, $additional_color); // mixin для кнопки
                 padding: 9px 0; // відступи по вертикалі
                 transition: all 1s; // плавна зміна при наведенні
+                cursor: pointer;
             }
         }
         &:nth-last-child(1) {

@@ -25,6 +25,7 @@
                 @include btn ($add_main-color, $add_main-color, $additional_color);
                 padding: 9px 0;
                 transition: all 1s;
+                cursor: pointer;
             }
         }
         .section__container--mod input {

@@ -39,6 +39,7 @@
             background-color: $main_color; // фон
             color: $additional_color; // колір для тексту
             transition: all 1s; // для плавної зміни всіх елементів
+            cursor: pointer;
         }
         &:nth-last-child(1) {
             margin-right: 0; // обнуляю відступ для останнього блоку

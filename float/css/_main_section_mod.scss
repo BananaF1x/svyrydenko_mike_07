@@ -5,7 +5,8 @@
     
     .main__section__link {
         width: 25%; // ширина для контейнера
-        padding: 35px 69px 35px 60px; // відступи
+        text-align: center;
+        padding: 35px 0; // відступи
         border: 1px solid $main_color; // задаю границю
         float: left; // ставлю блоки в лінію
     }

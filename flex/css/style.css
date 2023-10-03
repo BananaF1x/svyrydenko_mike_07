@@ -85,6 +85,7 @@ body {
   background-color: #F13C6E;
   color: #fff;
   transition: all 1s;
+  cursor: pointer;
 }
 .header .header__section__subnav {
   display: flex;
@@ -138,6 +139,7 @@ body {
   color: #000;
   font-size: 0.875rem;
   transition: all 1s;
+  cursor: pointer;
 }
 
 .main__heading {
@@ -187,6 +189,7 @@ body {
   background-color: #efefef;
   color: #000;
   transition: all 1s;
+  cursor: pointer;
 }
 
 .main__section--spec {
@@ -235,6 +238,7 @@ body {
   font-size: 0.875rem;
   padding: 9px 0;
   transition: all 1s;
+  cursor: pointer;
 }
 .main__section--spec .section__container--additional .section__container--mod input {
   display: block;
@@ -251,7 +255,8 @@ body {
 .main__section--mod .main__section__link {
   display: block;
   width: 25%;
-  padding: 35px 69px 35px 60px;
+  text-align: center;
+  padding: 35px 0;
   border: 1px solid #efefef;
 }
 
@@ -317,6 +322,7 @@ body {
   background-color: #F13C6E;
   color: #fff;
   transition: all 1s;
+  cursor: pointer;
 }
 .footer .footer__section--mod {
   display: flex;
